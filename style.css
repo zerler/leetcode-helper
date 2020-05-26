@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    padding-top: 10px;
+    color: #FCA311;
+}
+
+h2, p {
+    color: #14213D;
+}
+
+a, .problem {
+    width: 100%;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: tomato;
+}
+
+img {
+    width: 70%;
+    max-width: 200px;
+}
+
+.problems, a {
+    background-color: #E5E5E5;
+    border-radius: 25px;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.problem {
+    display: flex;
+    align-items: center;
+}
+
+svg {
+    padding-left: 10px;
+    fill: rgb(19, 168, 5);
+}
