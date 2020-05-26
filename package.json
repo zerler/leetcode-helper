@@ -1,0 +1,25 @@
+{
+  "name": "leetcode-helper",
+  "version": "1.0.0",
+  "description": "A simple tool to help me prepare for interviews",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerler/leetcode-helper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zerler/leetcode-helper/issues"
+  },
+  "homepage": "https://github.com/zerler/leetcode-helper#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.26.0",
+    "monk": "^7.3.0"
+  }
+}
