@@ -15,7 +15,7 @@ const insertProblems = problemArray => {
       const p = problemArray[problem];
       html += 
       `<div class="problem">
-         <a href="${problemArray[problem].url}">
+         <a href="${problemArray[problem].url}" target="_blank">
             <h2>${p.type}: ${p.name}</h2>
             <p>${p.relative_time}</p>
          </a>
