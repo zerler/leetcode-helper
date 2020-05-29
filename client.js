@@ -16,7 +16,7 @@ const insertProblems = problemArray => {
       html += 
       `<div class="problem">
          <a href="${problemArray[problem].url}" target="_blank">
-            <h2>${p.type}: ${p.name}</h2>
+            <span><h3 class='type'>${p.type}</h3><h3>: ${p.name}</h3></span>
             <p>${p.relative_time}</p>
          </a>
          <svg onclick="updateProblem('${p.name}')"

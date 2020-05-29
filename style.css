@@ -9,13 +9,18 @@ body {
     align-items: center;
 }
 
-.title {
-    padding-top: 10px;
-    color: #FCA311;
+.title, h1 {
+    padding: 10px 0px 0px 0px;
+    margin-bottom: 0;
 }
 
-h2, p {
+.caption { padding-bottom: 10px; }
+
+.title, .type { color: rgb(252, 163, 17); }
+
+h3, p {
     color: #14213D;
+    margin-bottom: 5px;
 }
 
 a, .problem {
@@ -24,7 +29,7 @@ a, .problem {
 }
 
 a:hover {
-    background-color: tomato;
+    background-color: rgb(245, 209, 153);
 }
 
 img {
@@ -48,6 +53,17 @@ img {
 }
 
 svg {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
     padding-left: 10px;
     fill: rgb(19, 168, 5);
+}
+
+svg:hover {
+    top: -5px;
+}
+
+span {
+    display: flex;
 }
