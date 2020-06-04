@@ -1,6 +1,5 @@
-const uri = 'mongodb+srv://zerler:IkRHfEnxHlUApnot@cluster0-kfosa.mongodb.net/test?retryWrites=true&w=majority';
-
-const db = require('monk')(uri);
+require('dotenv').config();
+const db = require('monk')(process.env.MONGO);
 const express = require('express');
 const cors = require('cors');
 const moment = require('moment');
