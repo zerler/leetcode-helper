@@ -1,8 +1,8 @@
 const problems = document.querySelector('.problems');
 const loading = document.querySelector('.loading');
 
-const RECENT_URL = 'http://localhost:3000/recent';
-const UPDATE_URL = 'http://localhost:3000/update';
+const RECENT_URL = 'https://leetcode-helper-server.now.sh/recent';
+const UPDATE_URL = 'https://leetcode-helper-server.now.sh/update';
 
 fetch(RECENT_URL)
 .then(data => data.json())
